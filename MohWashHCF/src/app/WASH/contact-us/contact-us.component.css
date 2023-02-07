@@ -1,0 +1,35 @@
+.phone {
+    position: relative;
+    border: 1px solid  gainsboro;
+    background-color: gainsboro;
+    width: 100px;
+    height: 100px;
+}
+
+.phone > i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-phone {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.form-group {
+    margin: auto;
+    width: 30%;
+}
+
+.form-group > input {
+    margin-top: 10px;
+}
+
+.text  {
+    margin: auto;
+    width: 40%;
+    text-align: justify;
+
+}

@@ -1,0 +1,15 @@
+.buttons button {
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+}
+
+.card-footer div
+{
+
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}

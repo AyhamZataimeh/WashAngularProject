@@ -1,0 +1,25 @@
+<div
+  class="jumbotron"
+  style="background-color: gainsboro; padding: 140px; font-weight: bolder"
+>
+  <h1>Publications</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div *ngFor="let element of data" class="col-xs-12 col-md-6 mt-5 pt-4">
+        <div class="data">
+          <div class="border"></div>
+          <div class="admin-data">
+            <p>
+              {{ element.Date | date }}
+            </p>
+            <p>{{ element.text }}</p>
+            <a href=""> Read more </a>
+          </div>
+        </div>
+    </div>
+  </div>
+
+</div>
+<app-footer></app-footer>
